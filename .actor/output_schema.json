@@ -1,0 +1,31 @@
+{
+  "title": "Xbox Game Progress",
+  "type": "object",
+  "properties": {
+    "User Name": {
+      "type": "string"
+    },
+    "Platform": {
+      "type": "string"
+    },
+    "User Total Gamerscore": {
+      "type": "integer"
+    },
+    "Game Title": {
+      "type": "string"
+    },
+    "Progress %": {
+      "type": "integer"
+    },
+    "Gamerscore Earned": {
+      "type": "integer"
+    },
+    "Last Played": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "User Name",
+    "Game Title"
+  ]
+}

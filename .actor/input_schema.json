@@ -1,0 +1,16 @@
+{
+  "title": "Xbox Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "username": {
+      "title": "Xbox Gamertag",
+      "type": "string",
+      "description": "The Gamertag to scrape (must be a valid, existing user).",
+      "editor": "textfield"
+    }
+  },
+  "required": [
+    "username"
+  ]
+}
